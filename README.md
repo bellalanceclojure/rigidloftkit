@@ -1,4 +1,4 @@
-# os-info-6a56cd
+# os-info-6d4556
 
 A Rust os-info utility.
 
